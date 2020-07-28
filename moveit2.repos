@@ -51,3 +51,9 @@ repositories:
     type: git
     url: https://github.com/ros-gbp/ompl-release.git
     version: release/melodic/ompl/1.4.2-5
+
+# Temporarily install control_msgs from a fork
+  control_msgs:
+    type: git
+    url: https://github.com/seqsense/control_msgs.git
+    version: dashing-devel-update-travis
